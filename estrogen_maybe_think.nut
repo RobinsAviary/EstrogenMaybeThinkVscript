@@ -11,7 +11,7 @@ function estrothink() {
     if (cappingTeam == 2 || cappingTeam == 3) {
         local capPercentage = NetProps.GetPropFloatArray(objectiveResource, "m_flCapPercentages", 2)
 
-        EntFire("estrogenMaybe", "SetPosition", (1 - capPercentage).tostring()) // Update target position for func_movelinear. Thankfully interpolation is free.
+        EntFire("estrogenMaybe", "SetPosition", (1 - capPercentage).tostring()) // Update target position for func_movelinear. Interpolation is free.
 
         //printl(capPercentage.tostring())
 
