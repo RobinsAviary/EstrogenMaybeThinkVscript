@@ -13,6 +13,8 @@ function estrothink() {
 
         EntFire("estrogenMaybe", "SetPosition", (1 - capPercentage).tostring()) // Update target position for func_movelinear. Interpolation is free.
 
+        percentageReset = false
+
         //printl(capPercentage.tostring())
 
         percentageReset = false
